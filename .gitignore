@@ -1,7 +1,8 @@
 .npmrc
 
 .DS_Store
-node_modules
+/node_modules
+/lib
 /.github/actions/*/node_modules
 /packages/*/node_modules
 /packages/*/LICENSE
@@ -48,6 +49,7 @@ package-lock.json
 /packages/babel-register/test/.babel
 /packages/babel-cli/test/tmp
 /packages/babel-node/test/tmp
+/packages/*/lib
 .nyc_output
 /babel.sublime-workspace
 packages/babel-standalone/babel.js
